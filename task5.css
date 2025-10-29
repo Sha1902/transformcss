@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.center:hover {
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+.top-left:hover {
+    transform-origin: top left;
+    transform: rotate(45deg);
+}
+
+.top-right:hover {
+    transform-origin: top right;
+    transform: rotate(45deg);
+}
+
+.bottom-left:hover {
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+.bottom-right:hover {
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+}
+
